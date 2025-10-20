@@ -1,0 +1,50 @@
+!DOCTYPE html
+html lang=uk
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleTechZone - Контактиtitle
+    link rel=stylesheet href=cssstyle.css
+head
+body
+    header
+        div class=logo
+            h1🖥️ TechZoneh1
+        div
+        nav
+            ul
+                lia href=index.html🏠 Головнаali
+                lia href=catalog.html📦 Каталогali
+                lia href=comparison.html⚖️ Порівнянняali
+                lia href=contacts.html📞 Контактиali
+            ul
+        nav
+    header
+
+    main
+        h2📞 Зв'яжіться з намиh2
+        
+        div class=contact-info
+            p📧 Email stronginfo@techzone.uastrongp
+            p📞 Телефон strong0-800-123-456strongp
+            p📍 Адреса strongм. Київ, вул. Технологічна, 123strongp
+        div
+
+        div class=contact-form
+            h3📨 Форма зворотного зв'язкуh3
+            form onsubmit=submitForm(event)
+                input type=text placeholder=Ваше ім'я required
+                input type=email placeholder=Ваш email required
+                textarea placeholder=Ваше повідомлення... rows=5 requiredtextarea
+                button type=submitНадіслати повідомленняbutton
+            form
+        div
+    main
+
+    footer
+        p&copy; 2024 TechZone. Всі права захищені.p
+    footer
+
+    script src=jsscript.jsscript
+body
+html

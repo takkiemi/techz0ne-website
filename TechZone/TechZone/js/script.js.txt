@@ -1,0 +1,31 @@
+// Простий JavaScript код для тестування (без DOM)
+console.log("TechZone Website Script Loaded");
+
+// Функції для роботи з даними
+function calculateTotalPrice(products) {
+    return products.reduce((total, product) => total + product.price, 0);
+}
+
+function filterProductsByCategory(products, category) {
+    return products.filter(product => product.category === category);
+}
+
+// Тестові дані
+const testProducts = [
+    { name: "Logitech Mouse", price: 4299, category: "mouse" },
+    { name: "Razer Keyboard", price: 3899, category: "keyboard" },
+    { name: "HyperX Headset", price: 3499, category: "headset" }
+];
+
+// Тестування функцій
+console.log("Загальна вартість:", calculateTotalPrice(testProducts));
+console.log("Мишки:", filterProductsByCategory(testProducts, "mouse"));
+
+// Експорт функцій для Node.js
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        calculateTotalPrice,
+        filterProductsByCategory,
+        testProducts
+    };
+}
