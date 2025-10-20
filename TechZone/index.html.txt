@@ -1,0 +1,57 @@
+!DOCTYPE html
+html lang=uk
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleTechZone - Головнаtitle
+    link rel=stylesheet href=cssstyle.css
+head
+body
+    header
+        div class=logo
+            h1🖥️ TechZoneh1
+        div
+        nav
+            ul
+                lia href=index.html🏠 Головнаali
+                lia href=catalog.html📦 Каталогali
+                lia href=comparison.html⚖️ Порівнянняali
+                lia href=contacts.html📞 Контактиali
+            ul
+        nav
+    header
+
+    main
+        section class=hero
+            h2Ласкаво просимо до TechZone! 🎮h2
+            pВаш найкращий вибір комп'ютерної периферіїp
+            button onclick=location.href='catalog.html'Перейти до каталогуbutton
+        section
+
+        section class=features
+            h3Чому обирають насh3
+            div class=features-grid
+                div class=feature
+                    h4🚀 Швидка доставкаh4
+                    pДоставляємо по всій Україні за 1-2 дніp
+                div
+                div class=feature
+                    h4💯 Гарантія якостіh4
+                    pВсі товари мають офіційну гарантіюp
+                div
+                div class=feature
+                    h4🛡️ Безпечна оплатаh4
+                    pОплачуйте зручним для вас способомp
+                div
+            div
+        section
+    main
+
+    footer
+        p&copy; 2024 TechZone. Всі права захищені.p
+        p📧 Email info@techzone.ua  📞 Телефон 0-800-123-456p
+    footer
+
+    script src=jsscript.jsscript
+body
+html

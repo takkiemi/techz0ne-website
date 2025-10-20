@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Сторінка товару</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>🖥️ TechZone</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">🏠 Головна</a></li>
+                <li><a href="catalog.html">📦 Каталог</a></li>
+                <li><a href="comparison.html">⚖️ Порівняння</a></li>
+                <li><a href="contacts.html">📞 Контакти</a></li>
+                <li><a href="about.html">ℹ️ Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-detail">
+            <div class="product-images">
+                <h2>Logitech G Pro X Superlight</h2>
+                <div class="image-placeholder" style="background: #ddd; padding: 100px; text-align: center; margin: 1rem 0;">
+                    🖱️ Зображення мишки
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <h3>Професійна бездротова геймерська мишка</h3>
+                <div class="price">4,299 ₴</div>
+                
+                <div class="product-features">
+                    <h4>🚀 Основні характеристики:</h4>
+                    <ul>
+                        <li><strong>Вага:</strong> 63 грами</li>
+                        <li><strong>Датчик:</strong> HERO 25K</li>
+                        <li><strong>Батарея:</strong> До 70 годин роботи</li>
+                        <li><strong>DPI:</strong> 100-25,600</li>
+                        <li><strong>З'єднання:</strong> Lightspeed 2.4 GHz</li>
+                        <li><strong>Кнопки:</strong> 5 програмованих</li>
+                    </ul>
+                </div>
+                
+                <div class="product-actions">
+                    <button onclick="addToCart('Logitech G Pro X Superlight', 4299)" class="add-to-cart">🛒 Додати в кошик</button>
+                    <button onclick="buyNow('Logitech G Pro X Superlight', 4299)" class="buy-now">⚡ Купити зараз</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="product-description-full">
+            <h3>📝 Опис товару</h3>
+            <p>Logitech G Pro X Superlight - це ультралегка бездротова геймерська мишка, створена для професійних кіберспортсменів. З вагою всього 63 грами та технологією Lightspeed, вона забезпечує неймовірну швидкість і точність.</p>
+            
+            <h4>🎯 Переваги:</h4>
+            <ul>
+                <li>Нульова затримка завдяки технології Lightspeed</li>
+                <li>HERO-датчик з роздільною здатністю 25,600 DPI</li>
+                <li>До 70 годин роботи без підзарядки</li>
+                <li>ПТФЕ ніжки для плавного ковзання</li>
+                <li>Ергономічний дизайн для правої руки</li>
+            </ul>
+        </section>
+
+        <section class="reviews">
+            <h3>💬 Відгуки покупців</h3>
+            <div class="review">
+                <h4>Андрій ⭐⭐⭐⭐⭐</h4>
+                <p>"Найкраща мишка, якою я коли-небудь користувався! Вага ідеальна, сенсор дуже точний."</p>
+            </div>
+            <div class="review">
+                <h4>Марія ⭐⭐⭐⭐</h4>
+                <p>"Дуже зручна і легка. Батареї дійсно вистачає на тиждень активного використання."</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechZone. Всі права захищені.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
